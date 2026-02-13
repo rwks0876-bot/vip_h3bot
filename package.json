@@ -1,18 +1,27 @@
 {
+  "name": "vip-h3bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "node-telegram-bot-api": "^0.64.0",
-    "express": "^4.18.2",
-    "sqlite3": "^5.1.6",
-    "dotenv": "^16.3.1",
-    "axios": "^1.6.0",
-    "cheerio": "^1.0.0-rc.12",
-    "luxon": "^3.4.3",
-    "multer": "^1.4.5-lts.1",
-    "useragent": "^2.3.0",
-    "tinyurl": "^1.1.7",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
     "google-tts-api": "^2.0.2",
-    "uuid": "^9.0.1",
+    "https-proxy-agent": "^7.0.5",
     "ipinfo": "^3.0.1",
-    "https-proxy-agent": "^7.0.2"
+    "luxon": "^3.5.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.7",
+    "tinyurl": "^1.1.7",
+    "useragent": "^2.3.0",
+    "uuid": "^11.0.3"
   }
 }
